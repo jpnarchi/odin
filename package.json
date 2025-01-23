@@ -22,7 +22,7 @@
   "engines": {
     "node": ">=18.17.1",
     "pnpm": ">=8.7.1"
-  }
+  },
   "overrides": {
     "@typescript-eslint/utils": "^8.0.0-alpha.30"
   },
