@@ -74,6 +74,10 @@ export class WorkbenchStore {
     return this.#terminalStore.showTerminal;
   }
 
+  get filesStore() {
+    return this.#filesStore;
+  }
+
   toggleTerminal(value?: boolean) {
     this.#terminalStore.toggleTerminal(value);
   }
